@@ -13,6 +13,9 @@ export default function Home() {
           <div>
               If you installed this application from Google Play, then Google Play does collect some personal data. Please see the privacy policy for Google Play Services here: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>          
           </div>
+          <div>
+            Please send any questions or comments to <a href="mailto:scott@morrisonlive.ca">scott@morrisonlive.ca</a>
+          </div>
         </div>
       </main>
     );
