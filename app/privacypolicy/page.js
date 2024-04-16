@@ -8,13 +8,13 @@ export default function Home() {
           <h1>Privacy Policy</h1>
   
           <div>
-              This privacy policy applies to the Spelling B android google play app. The app does not collect or store personal data.
+              This privacy policy applies to the "Spelling Test Tutor" google play app. The app does not collect or store personal data.
           </div>
           <div>
               If you installed this application from Google Play, then Google Play does collect some personal data. Please see the privacy policy for Google Play Services here: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>          
           </div>
           <div>
-            Please send any questions or comments to <a href="mailto:scott@morrisonlive.ca">scott@morrisonlive.ca</a>
+            Please send any questions or comments to <a href="mailto:atnmorrison@gmail.com">atnmorrison@gmail.com</a>
           </div>
         </div>
       </main>
