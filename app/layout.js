@@ -1,3 +1,4 @@
+import Script from "next/script";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
@@ -11,7 +12,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4608494003373704"
+          strategy="afterInteractive"
+          crossOrigin="anonymous"
+        />
+        {children}
+      </body>
     </html>
   );
 }
