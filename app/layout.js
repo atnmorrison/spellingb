@@ -6,11 +6,11 @@ const inter = Inter({ subsets: ["latin"], display: "swap" });
 
 export const metadata = {
   title: {
-    default: "Spelling Test Tutor",
-    template: "%s | Spelling Test Tutor",
+    default: "Scott Morrison - Rocket Man Morrison",
+    template: "%s | Scott Morrison",
   },
   description:
-    "Build custom spelling lists, practice with audio prompts, and track progress from any device.",
+    "Developer portfolio of Scott Morrison (Rocket Man Morrison). Personal projects and professional work.",
   alternates: {
     canonical: "/",
   },
