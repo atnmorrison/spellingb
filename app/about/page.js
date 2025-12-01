@@ -1,16 +1,19 @@
 import AdSlot from "@/components/AdSlot";
 
+export const metadata = {
+  title: "About",
+  description: "About Scott Morrison (Rocket Man Morrison) and his projects.",
+};
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-4">
       <div className="container mx-auto space-y-6">
         <div className="space-y-2">
-          <h1 className="text-3xl font-semibold">About Spelling Test Tutor</h1>
+          <h1 className="text-3xl font-semibold">About Scott Morrison</h1>
           <p className="leading-relaxed">
-            Spelling Test Tutor started as a weekend project to help students
-            practice their weekly word lists without needing a second person to
-            read each word aloud. Today it powers classrooms, homeschool
-            schedules, and at-home study routines around the world.
+            I'm a developer based in Edmonton, Alberta, building innovative solutions and personal projects. 
+            I'm passionate about creating useful tools and libraries that solve real-world problems.
           </p>
         </div>
 
@@ -18,14 +21,44 @@ export default function Home() {
 
         <section className="space-y-3 leading-relaxed">
           <p>
-            Feedback from educators and parents drives our roadmap. Every new
-            feature is designed to make practice more engaging while keeping the
-            workflow simple for teachers and caregivers.
+            My work spans multiple technologies and platforms, with a focus on JavaScript, Node.js, and Salesforce development. 
+            I've created and contributed to various open-source projects, including npm packages and GitHub repositories that 
+            are used by developers worldwide.
           </p>
           <p>
-            Sponsored placements help us cover hosting costs and invest in new
-            learning tools. We aim to keep advertising unobtrusive while
-            maintaining a sustainable platform.
+            I'm an active member of the Salesforce Trailblazer community and enjoy sharing knowledge and collaborating 
+            with other developers. When I'm not coding, I'm exploring new technologies and working on side projects 
+            that push the boundaries of what's possible.
+          </p>
+          <p>
+            Feel free to connect with me on{" "}
+            <a
+              href="https://www.linkedin.com/in/scott-morrison-932754b/?originalSubdomain=ca"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 dark:text-blue-400 hover:underline"
+            >
+              LinkedIn
+            </a>
+            , check out my code on{" "}
+            <a
+              href="https://github.com/atnmorrison"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 dark:text-blue-400 hover:underline"
+            >
+              GitHub
+            </a>
+            , or view my{" "}
+            <a
+              href="https://salesforce.com/trailblazer/qlikmorrison"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 dark:text-blue-400 hover:underline"
+            >
+              Trailblazer profile
+            </a>
+            .
           </p>
         </section>
       </div>

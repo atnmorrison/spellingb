@@ -1,6 +1,8 @@
 import Script from "next/script";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"], display: "swap" });
 
@@ -39,7 +41,9 @@ export default function RootLayout({ children }) {
           crossOrigin="anonymous"
           data-ad-client="ca-pub-4608494003373704"
         />
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
