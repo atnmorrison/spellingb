@@ -4,6 +4,7 @@ export default function Home() {
       name: "country-locale-map",
       description: "JavaScript library for mapping countries to locales. Available as an npm package.",
       link: "https://www.npmjs.com/package/country-locale-map",
+      demo: "https://worldcountries.rocketmanmrorison.ca",
       status: "active"
     },
     {
@@ -145,14 +146,28 @@ export default function Home() {
                 <p className="text-gray-600 dark:text-gray-400 mb-4">
                   {project.description}
                 </p>
-                {project.link && (
-                  <a
-                    href={project.link}
-                    className="text-blue-600 dark:text-blue-400 hover:underline font-medium"
-                  >
-                    View Project →
-                  </a>
-                )}
+                <div className="flex flex-col gap-2">
+                  {project.link && (
+                    <a
+                      href={project.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-600 dark:text-blue-400 hover:underline font-medium"
+                    >
+                      View Project →
+                    </a>
+                  )}
+                  {project.demo && (
+                    <a
+                      href={project.demo}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-600 dark:text-blue-400 hover:underline font-medium"
+                    >
+                      View Demo →
+                    </a>
+                  )}
+                </div>
               </div>
             ))}
           </div>

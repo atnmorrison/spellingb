@@ -8,21 +8,21 @@ export const metadata = {
 export default function Contact() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-4">
-      <div className="container mx-auto max-w-2xl space-y-6">
-        <div className="space-y-2">
-          <h1 className="text-3xl font-semibold">Contact</h1>
-          <p className="leading-relaxed text-gray-600 dark:text-gray-400">
-            Get in touch with us for questions, feedback, or support.
-          </p>
-        </div>
+      <div className="container mx-auto max-w-6xl">
+        <div className="flex flex-col lg:flex-row gap-6">
+          <div className="flex-1 space-y-6">
+            <div className="space-y-2">
+              <h1 className="text-3xl font-semibold">Contact</h1>
+              <p className="leading-relaxed text-gray-600 dark:text-gray-400">
+                Get in touch with me for questions, feedback, or support.
+              </p>
+            </div>
 
-        <AdSlot adSlot="2468135790" className="pt-2" />
-
-        <section className="space-y-4 leading-relaxed">
+            <section className="space-y-4 leading-relaxed">
           <div className="border border-gray-200 dark:border-gray-700 rounded-lg p-6">
             <h2 className="text-xl font-semibold mb-3">Email</h2>
             <p className="mb-2">
-              For general inquiries, support, or business matters, please contact us at:
+              For general inquiries, support, or business matters, please contact me at:
             </p>
             <a
               href="mailto:atnmorrison@gmail.com"
@@ -35,7 +35,7 @@ export default function Contact() {
           <div className="border border-gray-200 dark:border-gray-700 rounded-lg p-6">
             <h2 className="text-xl font-semibold mb-3">Response Time</h2>
             <p>
-              We aim to respond to all inquiries within 2-3 business days. For urgent matters, please indicate &quot;URGENT&quot; in your subject line.
+              I aim to respond to all inquiries within 2-3 business days. For urgent matters, please indicate &quot;URGENT&quot; in your subject line.
             </p>
           </div>
 
@@ -78,6 +78,13 @@ export default function Contact() {
             </div>
           </div>
         </section>
+          </div>
+          <aside className="w-full lg:w-80 flex-shrink-0">
+            <div className="sticky top-20">
+              <AdSlot adSlot="2468135790" />
+            </div>
+          </aside>
+        </div>
       </div>
     </main>
   );

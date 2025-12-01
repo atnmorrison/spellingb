@@ -8,21 +8,21 @@ export const metadata = {
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-4">
-      <div className="container mx-auto space-y-6 leading-relaxed">
-        <div className="space-y-2">
-          <h1 className="text-3xl font-semibold">Privacy Policy</h1>
-          <p className="text-gray-600 dark:text-gray-400">
-            Last updated: {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
-          </p>
-          <p>
-            This privacy policy applies to this portfolio website. We are committed to protecting your privacy 
-            and do not collect or store personal data on our servers.
-          </p>
-        </div>
+      <div className="container mx-auto max-w-6xl">
+        <div className="flex flex-col lg:flex-row gap-6">
+          <div className="flex-1 space-y-6 leading-relaxed">
+            <div className="space-y-2">
+              <h1 className="text-3xl font-semibold">Privacy Policy</h1>
+              <p className="text-gray-600 dark:text-gray-400">
+                Last updated: {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+              </p>
+              <p>
+                This privacy policy applies to this portfolio website. We are committed to protecting your privacy 
+                and do not collect or store personal data on our servers.
+              </p>
+            </div>
 
-        <AdSlot adSlot="1357924680" className="pt-2" />
-
-        <section className="space-y-4">
+            <section className="space-y-4">
           <div>
             <h2 className="text-xl font-semibold mb-2">Information We Collect</h2>
             <p>
@@ -85,6 +85,13 @@ export default function Home() {
             </p>
           </div>
         </section>
+          </div>
+          <aside className="w-full lg:w-80 flex-shrink-0">
+            <div className="sticky top-20">
+              <AdSlot adSlot="1357924680" />
+            </div>
+          </aside>
+        </div>
       </div>
     </main>
   );
