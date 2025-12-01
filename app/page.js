@@ -4,7 +4,7 @@ export default function Home() {
       name: "country-locale-map",
       description: "JavaScript library for mapping countries to locales. Available as an npm package.",
       link: "https://www.npmjs.com/package/country-locale-map",
-      demo: "https://worldcountries.rocketmanmrorison.ca",
+      demo: "https://worldcountries.rocketmanmorrison.ca",
       status: "active"
     },
     {
