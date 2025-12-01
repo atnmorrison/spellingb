@@ -12,8 +12,8 @@ export default function Home() {
         <div className="space-y-2">
           <h1 className="text-3xl font-semibold">About Scott Morrison</h1>
           <p className="leading-relaxed">
-            I'm a developer based in Edmonton, Alberta, building innovative solutions and personal projects. 
-            I'm passionate about creating useful tools and libraries that solve real-world problems.
+            I&apos;m a developer based in Edmonton, Alberta, building innovative solutions and personal projects. 
+            I&apos;m passionate about creating useful tools and libraries that solve real-world problems.
           </p>
         </div>
 
@@ -22,13 +22,13 @@ export default function Home() {
         <section className="space-y-3 leading-relaxed">
           <p>
             My work spans multiple technologies and platforms, with a focus on JavaScript, Node.js, and Salesforce development. 
-            I've created and contributed to various open-source projects, including npm packages and GitHub repositories that 
+            I&apos;ve created and contributed to various open-source projects, including npm packages and GitHub repositories that 
             are used by developers worldwide.
           </p>
           <p>
-            I'm an active member of the Salesforce Trailblazer community and enjoy sharing knowledge and collaborating 
-            with other developers. When I'm not coding, I'm exploring new technologies and working on side projects 
-            that push the boundaries of what's possible.
+            I&apos;m an active member of the Salesforce Trailblazer community and enjoy sharing knowledge and collaborating 
+            with other developers. When I&apos;m not coding, I&apos;m exploring new technologies and working on side projects 
+            that push the boundaries of what&apos;s possible.
           </p>
           <p>
             Feel free to connect with me on{" "}

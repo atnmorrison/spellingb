@@ -35,7 +35,7 @@ export default function Contact() {
           <div className="border border-gray-200 dark:border-gray-700 rounded-lg p-6">
             <h2 className="text-xl font-semibold mb-3">Response Time</h2>
             <p>
-              We aim to respond to all inquiries within 2-3 business days. For urgent matters, please indicate "URGENT" in your subject line.
+              We aim to respond to all inquiries within 2-3 business days. For urgent matters, please indicate &quot;URGENT&quot; in your subject line.
             </p>
           </div>
 

@@ -48,7 +48,7 @@ export default function Home() {
                 href="https://policies.google.com/privacy"
                 className="text-blue-600 dark:text-blue-400 underline"
               >
-                Google's Privacy Policy
+                Google&apos;s Privacy Policy
               </a>
               .
             </p>
