@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Header() {
   return (
@@ -7,9 +8,19 @@ export default function Header() {
         <nav className="flex items-center justify-between h-16">
           <Link
             href="/"
-            className="text-xl font-bold text-gray-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+            className="flex items-center gap-3 hover:opacity-80 transition-opacity"
           >
-            Scott Morrison
+            <Image
+              src="/images/rmm-logo.png"
+              alt="Rocket Man Morrison Logo"
+              width={50}
+              height={50}
+              className="object-contain"
+              priority
+            />
+            <span className="text-xl font-bold text-gray-900 dark:text-white">
+              Scott Morrison
+            </span>
           </Link>
           <div className="flex items-center gap-1 text-sm text-gray-600 dark:text-gray-400">
             <span className="hidden sm:inline">Rocket Man Morrison</span>
