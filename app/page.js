@@ -15,8 +15,8 @@ export default function Home() {
     },
     {
       name: "filecloud-client",
-      description: "Client library for interacting with FileCloud services.",
-      link: "https://github.com/atnmorrison/filecloud-client",
+      description: "Client library for interacting with FileCloud services. Available as an npm package.",
+      link: "https://www.npmjs.com/package/filecloud-client",
       status: "active"
     },
     // Add more projects here as needed

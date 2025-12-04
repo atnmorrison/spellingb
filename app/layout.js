@@ -41,24 +41,6 @@ export default function RootLayout({ children }) {
           crossOrigin="anonymous"
           data-ad-client="ca-pub-4608494003373704"
         />
-        {/* Google tag (gtag.js) */}
-        <Script
-          id="google-analytics"
-          src="https://www.googletagmanager.com/gtag/js?id=G-QV1RHM73CT"
-          strategy="afterInteractive"
-        />
-        <Script
-          id="google-analytics-init"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-QV1RHM73CT');
-            `,
-          }}
-        />
         <Header />
         {children}
         <Footer />
